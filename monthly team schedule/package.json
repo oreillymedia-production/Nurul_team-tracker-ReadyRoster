@@ -1,0 +1,10 @@
+{
+  "name": "ni-schedule-automation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "refresh-sources": "node src/refresh-sources.mjs",
+    "build": "node src/build-schedule.mjs",
+    "check-readiness": "node src/build-schedule.mjs --readiness-only"
+  }
+}
